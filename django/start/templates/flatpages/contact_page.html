@@ -1,4 +1,11 @@
-<h2>{{ flatpage.title }}</h2>
-<hr>
-<h3>Наши контакты:</h3>
-{{ flatpage.content }}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Django flatpages - {% block title %} {% endblock title %}</title>
+</head>
+<body>
+    <h2>Django flatpages app</h2>
+    {% block content %}
+    {% endblock content %}
+</body>
+</html>
